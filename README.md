@@ -1,9 +1,6 @@
-# Riscord
+# Riscord - COSC 310 Project
 
-
-## COSC 310 Project
 ### A web-based application that is similar in functionality to the popular social-media platform, Discord.
-
 
 # User Requirements
 The list of user requirements based on user stories with acceptance criteria as follows:
