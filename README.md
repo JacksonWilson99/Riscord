@@ -33,55 +33,55 @@ The user stories created for this project based on the discord application liste
    
    **Acceptance criteria**:
 
-3. As a regular user, I want to be able to register as a user, and have a personal account so that I can access the app's features in its entirety
+2. As a regular user, I want to be able to register as a user, and have a personal account so that I can access the app's features in its entirety
 
    **Details**:
    
    **Acceptance criteria**:
 
-5. As a regular user, I want to be able to modify and delete my account so that I can stop using the application
+3. As a regular user, I want to be able to modify and delete my account so that I can stop using the application
 
    **Details**:
    
    **Acceptance criteria**:
 
-7. As a regular user, I want to be able send friend requests to other users so that I can communicate with them effectively
+4. As a regular user, I want to be able send friend requests to other users so that I can communicate with them effectively
 
    **Details**:
    
    **Acceptance criteria**:
 
-9. As a regular user, I want to be able to see my friends' list so that I can communicate them when needed
+5. As a regular user, I want to be able to see my friends' list so that I can communicate them when needed
 
    **Details**:
    
    **Acceptance criteria**:
 
-11. As a regular user, I want to be able to access online/offline status along with the member list for each server so that I can see which user is online and to communicate or send friends requests to users in the server
+6. As a regular user, I want to be able to access online/offline status along with the member list for each server so that I can see which user is online and to communicate or send friends requests to users in the server
 
    **Details**:
    
    **Acceptance criteria**:
 
-11. As a regular user, I want to able to directly message a user by their username so that I can communicate with a user from a server or just by username
+7. As a regular user, I want to able to directly message a user by their username so that I can communicate with a user from a server or just by username
 
    **Details**:
    
    **Acceptance criteria**:
 
-11. As a regular user, I want to be able to attach media such as images, videos, stickers, GIFs, emojis, etc. and embed links so that I can send media to users in a server or via direct messaging
+8. As a regular user, I want to be able to attach media such as images, videos, stickers, GIFs, emojis, etc. and embed links so that I can send media to users in a server or via direct messaging
 
    **Details**:
    
    **Acceptance criteria**:
 
-11. As a regular user, I want to able to receive push notifications to users involved in a server where a message was sent or via direct messaging so that I can see the messages sent as they reach the server or the direct messaging chat
+9. As a regular user, I want to able to receive push notifications to users involved in a server where a message was sent or via direct messaging so that I can see the messages sent as they reach the server or the direct messaging chat
 
    **Details**:
    
    **Acceptance criteria**:
 
-11. As a server admin, I want to able to create, modify, and delete a channel in a server so that I can effectively categories interactions between users in a server, or remove categories of communication that serve no purpose
+10. As a server admin, I want to able to create, modify, and delete a channel in a server so that I can effectively categories interactions between users in a server, or remove categories of communication that serve no purpose
 
    **Details**:
    
