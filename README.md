@@ -21,6 +21,8 @@ The list of user requirements based on user stories with acceptance criteria as 
 15. Ability to tag/mention server members using @
 16. Ability to change server themes
 
+# Technologies Used: 
+HTML, CSS, and React.js for the Frontend, Node.js for the Backend, Firebase/MongoDB/PostgrSQL for Database operations
 
 # User Stories
 The user stories created for this project based on the discord application listed with their appropriate acceptance criteria are as follows:
