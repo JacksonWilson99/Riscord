@@ -2,6 +2,12 @@
 
 ### A web-based application that is similar in functionality to the popular social-media platform, Discord.
 
+# Technologies Used
+HTML, CSS, and React.js for the Frontend, Node.js for the Backend, MongoDB for Database operations, Git for Version Control, GitHub actions for Continuous Integration/Continouos Delivery.
+
+# Testing Strategy
+Agile testing strategy, which includes iterative and incremental testing in the all branches every time a new set of features are pushed upstream before merging with the production branch. The aim for each major testing iteration is to achieve > 95% code coverage, and ensure the project remains functional throughout the Software Development Life Cycle (SDLC).
+
 # User Requirements
 The list of user requirements based on user stories with acceptance criteria as follows:
 1. Creating, modifying, and deleting server
@@ -20,7 +26,6 @@ The list of user requirements based on user stories with acceptance criteria as 
 14. Ability to customize notifications (frequency, display type)
 15. Ability to tag/mention server members using @
 16. Ability to change server themes
-
 
 # User Stories
 The user stories created for this project based on the discord application listed with their appropriate acceptance criteria are as follows:
