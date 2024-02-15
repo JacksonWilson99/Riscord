@@ -32,67 +32,119 @@ The user stories created for this project based on the discord application liste
 1. As a server admin, I want to be able to create, modify and delete a server so that I can comunicate with other friends in ways that are customizable, or to end communication with other users
    
    **Acceptance criteria**:
+   Server admin should have access to options to create a new server, modify server details, and delete a server.
+   When creating a new server, the admin should be prompted to provide a server name and optional profile picture.
+   Upon deletion of a server, all server data, including channels and messages, should be permanently removed.
+   Changes made to server details (name, profile picture) should be immediately reflected across the platform.
+
 
 2. As a regular user, I want to be able to register as a user, and have a personal account so that I can access the app's features in its entirety
    
    **Acceptance criteria**:
+   New users should be able to register by providing required information such as username, email, and password.
+   Upon successful registration, users should receive a confirmation email or message.
+   Registered users should have access to all features of the application upon logging in.
 
 3. As a regular user, I want to be able to modify and delete my account so that I can stop using the application
    
    **Acceptance criteria**:
+   Users should have access to settings allowing them to modify their account details.
+   Account deletion option should be available in the user settings menu.
+   Upon deletion, the user's account and all associated data should be permanently removed from the system.
 
 4. As a regular user, I want to be able send friend requests to other users so that I can communicate with them effectively
    
    **Acceptance criteria**:
+   Users should be able to send friend requests to other users.
+   The recipient should receive a notification of the friend request and have the option to accept or decline it.
+   Upon acceptance, the users should be added to each other's friends list.
 
 5. As a regular user, I want to be able to see my friends' list so that I can communicate them when needed
    
    **Acceptance criteria**:
+   Users should have access to a friends list displaying all accepted friend connections.
+   The friends list should include information such as friend usernames and online/offline status.
+   Users should be able to access their friends list from the application's main interface.
 
 6. As a regular user, I want to be able to access online/offline status along with the member list for each server so that I can see which user is online and to communicate or send friends requests to users in the server
    
    **Acceptance criteria**:
+   Users should be able to view the online/offline status of other users within a server.
+   The member list of each server should display usernames along with their online/offline status.
+   Users should be able to access the member list from the server interface.
 
 7. As a regular user, I want to able to directly message a user by their username so that I can communicate with a user from a server or just by username
    
    **Acceptance criteria**:
+   Users should have the ability to send direct messages to other users by entering their usernames.
+   Direct messages should be delivered in real-time, and users should receive notifications for new messages.
 
 8. As a regular user, I want to be able to attach media such as images, videos, stickers, GIFs, emojis, etc. and embed links so that I can send media to users in a server or via direct messaging
    
    **Acceptance criteria**:
+   Users should be able to attach various types of media (images, videos, stickers, GIFs, emojis) to messages.
+   Links pasted into messages should be automatically embedded with a preview.
+   Media and links should be accessible and viewable by recipients in the chat.
 
 9. As a regular user, I want to able to receive push notifications to users involved in a server where a message was sent or via direct messaging so that I can see the messages sent as they reach the server or the direct messaging chat
    
    **Acceptance criteria**:
+   Users should receive push notifications for new messages in servers and direct messages.
+   Notifications should be delivered in real-time and should include information about the sender and message content.
 
 10. As a server admin, I want to able to create, modify, and delete a channel in a server so that I can effectively categories interactions between users in a server, or remove categories of communication that serve no purpose
    
-     **Acceptance criteria**:
+    **Acceptance criteria**:
+    Server admin should be able to create a new channel or category within a server, modify existing channel settings, and delete channels.
+    When creating a new channel or category, the admin should specify the channel or category name and type (text, voice).
+    Modifications to channel or category settings should include options to change the channel or category name, type, and permissions.
+    Deleted channels or categories should be removed from the server interface, and all associated messages should be permanently deleted.
 
 11. As a regular user, I want to be able to tag/mention server members using @ so that I can talk to specific users or all the users in a server
    
-     **Acceptance criteria**:
+    **Acceptance criteria**:
+    Users should be able to tag or mention other users in messages using the "@" symbol followed by the username.
+    Tagged users should receive notifications, and their usernames should be highlighted in the message.
 
 12. As a server admin, I want to be able to change server themes, so that I can let the server members have a different visual when they open the server
    
-     **Acceptance criteria**:
+    **Acceptance criteria**:
+    Server admin should have the ability to change the theme of the server interface.
+    Themes should include options for color schemes, background images, and other visual elements.
+    Changes to server themes should be immediately visible to all server members upon application.
 
 13. As a regular user, I want to be able to join and leave multiple servers so that I can communicate with a community of users or stop communicating with a community of users
    
-     **Acceptance criteria**:
+    **Acceptance criteria**:
+    Users should have the ability to join multiple servers and leave servers they no longer wish to participate in.
+    Joining a server should be initiated by accepting an invitation or searching for and selecting a server from a list.
+    Leaving a server should remove the user from the server's member list and channels.
 
 14. As a regular user, I want to be able to communicate via text and voice so that I can communicate effectively with other users in servers and via direct message
    
-     **Acceptance criteria**:
+    **Acceptance criteria**:
+    Users should have access to both text and voice communication features within servers and direct messages.
+    Text chat should support real-time messaging, while voice chat should provide clear audio communication.
+    Both text and voice chat features should be accessible from the server interface and direct message windows.
 
 15. As a regular user, I want to be able to search for other users by user name so that I can send friend requests to other users
    
      **Acceptance criteria**:
+    Users should have access to a search feature allowing them to find other users by their usernames.
+    Search results should display matching usernames, and users should be able to click on a result to view the user profile.
+    As a regular user, I want to be able to access online/offline status along with the member list for each server so that I can see which user is online and to communicate or send friend requests to users on the server.
 
 16. As a regular user, I want to be able to customize notification frequency, so that I can make sure I get notifications as and when I want to see them
    
      **Acceptance criteria**:
+    Users should have access to settings allowing them to customize notification preferences.
+    Options should include frequency settings for different types of notifications (e.g., message mentions, friend requests).
+    Changes to notification settings should be applied immediately.
 
 17. As a regular user, I want to be able to modify permissions on a server if given a role so that I can enforce regulations on a server
    
      **Acceptance criteria**:
+    Users with appropriate permissions (e.g., server admins, moderators) should be able to modify user permissions within a server.
+    Changes to permissions should be immediately reflected for affected users.
+    Options for modifying permissions should be accessible from the server settings menu.
+
