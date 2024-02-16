@@ -10,22 +10,19 @@ Agile testing strategy, which includes iterative and incremental testing in the 
 
 # User Requirements
 The list of user requirements based on user stories with acceptance criteria as follows:
-1. Creating, modifying, and deleting server
-2. Create, modify, and delete channels within each server
-3. Join and leave multiple servers
-4. Live text and voice chat
-5. Modify permissions (server owners, regular users)
-6. Ability to register as a user and have a personal account
-7. Modify and delete an existing account
-8. Ability to friend other accounts
-9. Display each user's friends list
-10. Display online/offline status along with the member list for each server
-11. Direct messaging feature
-12. Ability to add media (images, videos, Stickers, GIFs, emojis, etc.) and embed links
-13. Sending push notifications to users involved in a server where a message was sent
-14. Ability to customize notifications (frequency, display type)
-15. Ability to tag/mention server members using @
-16. Ability to change server themes
+1. Users should be able to create new servers, edit server settings, and delete servers.
+2. Users should be able to create, rename, modify, and delete channels within servers.
+3. Users should have access to live text and voice chat features within servers.
+4. Users should be able to modify permissions within servers to assign roles and manage access levels.
+5. Users should receive notifications for new events within servers and should be able to customize their notification preferences for each server.
+6. Users should be able to send direct messages to other users for private communication.
+7. Users should have the ability to join and leave multiple servers.
+8. Users should be able to create an account for themselves and delete an account.
+9. Users should be able to send friend requests to other users.
+10. Users should be able to see the online/offline status of other users within a server and with other users they are friends with.
+11. Users should have the ability to add media (images, videos, Stickers, GIFs, emojis, etc.) and embed links within a message to another user or within a server.
+12. Users should be able to tag other users by user ID, and everyone within a server. 
+13. Users should have the ability to change application/server themes.
 
 # User Stories
 The user stories created for this project based on the discord application listed with their appropriate acceptance criteria are as follows:
@@ -148,3 +145,81 @@ The user stories created for this project based on the discord application liste
     Changes to permissions should be immediately reflected for affected users.
     Options for modifying permissions should be accessible from the server settings menu.
 
+# Functional Requirements
+
+1. Server Management
+a. Allow users to create, modify, and delete servers.
+b. Acceptance Criteria: Users should be able to initiate server setup, change server
+details, and remove a server without encountering errors.
+
+2. Category Management
+a. Enable users to create, modify, and delete categories within servers.
+b. Acceptance Criteria: Users should have the ability to add new categories, rename existing categories, reorganize categories, and delete categories as needed.
+
+3. Channel Management
+a. Allow users to create, modify, and delete text and voice channels within servers.
+b. Acceptance Criteria: Users should be able to add channels, adjust channel settings, and remove channels successfully.
+
+4. Communication Tools
+a. Support live text and voice chat.
+b. Acceptance Criteria: Users should be able to engage in real-time communication through text and voice without experiencing noticeable lag or quality issues.
+
+5. Permission Settings
+a. Allow server owners to modify user permissions.
+b. Acceptance Criteria: Server owners should be able to change permissions, and those changes should be reflected immediately for affected users.
+
+6. Account Registration and Management
+a. Enable new users to register and existing users to modify or delete their accounts.
+b. Acceptance Criteria: Users should be able to register a new account, modify their account details, and delete their account as needed.
+
+7. Server Membership
+a. Allow users to join multiple servers, leave servers, and switch between servers.
+b. Acceptance Criteria: Users should be able to seamlessly join or leave servers and switch the active server view without encountering system errors.
+
+8. Social Interaction
+a. Provide a feature for users to send friend requests, manage a friends list, and display online/offline statuses.
+b. Acceptance Criteria: Users should be able to send friend requests, accept or decline friend requests, manage their friends list, and view the online/offline status of other users.
+
+9. Direct Messaging
+a. Offer a direct messaging feature for private user communication.
+b. Acceptance Criteria: Users should be able to send, receive, and view direct messages with other users in real time.
+
+10. Media and Link Sharing
+a. Allow users to add media and embed links in their messages.
+b. Acceptance Criteria: Users should be able to upload and share media files and links, which should be accessible to others in the chat.
+
+11. Notifications
+a. Provide customizable notifications for various user activities.
+b. Acceptance Criteria: Users should receive notifications according to their settings and have the ability to customize what they are notified about.
+
+12. Tagging and Mentioning
+a. Support the functionality to tag or mention users in chats.
+b. Acceptance Criteria: When a user is tagged, they should receive a notification, and the tag should be visible in the chat.
+
+13. Customization
+a. Allow users to change server themes.
+b. Acceptance Criteria: Users should be able to change the theme of a server and see the visual changes on the user interface.
+
+# Non-Functional Requirements
+1. Performance
+a. Efficiently handle user traffic to ensure smooth operation.
+b. Acceptance Criteria: The system should maintain responsiveness and stability even when several users are accessing various features simultaneously.
+2. Usability
+a. Ensure that the platform is adaptable and easy to use for all users.
+b. Acceptance Criteria: Users should be able to navigate the system effortlessly or at least perform basic tasks without requiring guidance or instructions.
+
+3. Reliability
+a. Maintain system stability and prevent crashes or failures.
+b. Acceptance Criteria: The system should operate without disruption during demonstrations, and even if there are disruptions, it should be able to recover from them easily.
+
+4. Scalability
+a. Ensure that the system can accommodate increase in users and user engagement without having to manually tailor the platform each time there is a growth.
+b. Acceptance Criteria: The system should be able to add additional mock users, servers, categories, channels, etc. without the need for manual adjustments in the database or the platform’s code base.
+
+5. Security
+a. Protection of user data and privacy.
+b. Acceptance Criteria: Basic security measures such as hashed passwords should be implemented to protect user accounts and other sensitive information.
+
+6. Compatibility
+a. Ensure that the functionality of the platform remains consistent across different browsers and environments
+b. Acceptance Criteria: The system should perform as expected on Chrome, Firefox, Safari, etc. during demonstrations to showcase compatibility with commonly used web browsers.
