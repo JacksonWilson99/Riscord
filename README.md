@@ -3,7 +3,7 @@
 ### A web-based application that is similar in functionality to the popular social-media platform, Discord.
 
 # Technologies Used
-HTML, CSS, and React.js for the Frontend, Node.js for the Backend, MongoDB for Database operations, Git for Version Control, GitHub actions for Continuous Integration/Continouos Delivery.
+HTML, CSS, Tailwind, and React.js for the Frontend, Next.js for the Backend, MySQL and Prisma for Database operations, Socket.io for communications, and Git for Version Control, GitHub actions for Continuous Integration/Continouos Delivery.
 
 # Testing Strategy
 Agile testing strategy, which includes iterative and incremental testing in the all branches every time a new set of features are pushed upstream before merging with the production branch. The aim for each major testing iteration is to achieve > 95% code coverage, and ensure the project remains functional throughout the Software Development Life Cycle (SDLC).
