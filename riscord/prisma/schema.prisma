@@ -14,6 +14,7 @@ model Profile{
   name String
   imageURL String @db.Text
   email String @db.Text
+  password String @db.Text
 
   servers Server[]
   members Member[]
