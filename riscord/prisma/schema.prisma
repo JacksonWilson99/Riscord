@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url = env("DATABASE_URL")
+  url = "mysql://hrjwtz9u2xt4capzrik0:pscale_pw_qBlHZt5fqSfBc0P2Z1SqFvWuFUN42rU8DRAzQK5eyX@aws.connect.psdb.cloud/riscord-database?sslaccept=strict"
   relationMode = "prisma"
 }
 
